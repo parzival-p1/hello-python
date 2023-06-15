@@ -15,7 +15,7 @@ formated_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radi
 print(formated_string)
 
 #* f-Strings | String Interpolation
-"""_summary_
+"""#* f-string
 Another new string formatting is strin
 interpolation, f-strings. Strings start with
 f and we can inject the data in their
@@ -108,6 +108,7 @@ greeting = "Hello World"
 print(greeting[::-1]) # !dlroW ,olleH
 
 #^Skipping Characters While Slicing
+
 language = 'Python'
 pto = language[0:6:2] #
 print(pto) # Pto

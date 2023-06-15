@@ -1,4 +1,4 @@
-
+#
 #*** Variables ***
 
 my_str_variable = "My string variable" #camelCase
@@ -27,4 +27,24 @@ print(len(my_str_variable))
 name, surname, alias, age = "Paco", "Hdez", "Pacool", "30" # es posible mezclar tipos de datos
 print("Me llamo: ", name, surname, "Mi edad es: ", age, "Y  mi alias es:", alias)
 
+#^inputs
+""""
+name = input('Cuál es tu nombre: ')
+age = input('Qué edad tienes? ')
 
+print(name)
+print(age)
+"""
+
+#^ Reasignacion de variables
+name = 35
+age = "Brais"
+#asignacion de una var a otra
+name = age
+print(name)
+print(age)
+
+#~ ¿Forzando el tipado en Py? | tipado debil
+address: str = "Mi direccion" #? Casting
+address: int = 32
+print(type(address))
