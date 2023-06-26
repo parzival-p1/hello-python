@@ -42,6 +42,7 @@ print_name_w_default("Paco", "Hdez", "Pacool")
 
 ###& *** Parametros por separado *** &###
 def print_upper_txts(*texts): # esto es un ptr?
+    print(type(texts))         # <class 'tuple'>
     for text in texts:
         print(text.upper())
 
