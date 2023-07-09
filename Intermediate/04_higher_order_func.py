@@ -48,6 +48,7 @@ numbers = [2, 5, 10, 21, 3, 30]
 '''
 
 def mult_by_two(num):
+    '''Multiply by two'''
     return num * 2
 
 print(list(map(mult_by_two, numbers))) # [4, 10, 20, 42]
